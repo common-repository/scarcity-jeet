@@ -1,0 +1,26 @@
+.wpsj_form p{line-height: 37px;height: 37px;}
+.wpsj_form p.submit{line-height: inherit;}
+.wpsj_form a.dp-choose-date {float: left; width: 16px; height: 16px; padding: 0; margin: 5px 3px 0; display: block; text-indent: -2000px; overflow: hidden; background: url(calendar.png) no-repeat; display: none;}
+.wpsj_form a.dp-choose-date.dp-disabled {background-position: 0 -20px; cursor: default; }
+.wpsj_form input.dp-applied {width: 140px;}
+.wpsj_form #dp-popup{margin-left: 205px;}
+.wpsj_form input.inputField{width: 325px;}
+.wpsj_form label{width: 150px;text-align: right;display: inline-block;}
+.wpsj_form legend label{color: #fff;}
+.wpsj_form input.inputField.urlLink{width: 325px;}
+.wpsj_form .previewColor{display: inline-block;width: 50px;height: 50px;line-height: 50px;border:solid 1px #000;color:#fff;text-align: center;padding: 0 10px;}
+.wpsj_form .previewNumbersColor{display: inline-block;height: 40px;line-height: 40px;color:#fff;text-align: center;padding: 0 10px;border-radius: 5px;}
+.wpsj_form select{width: 325px;}
+.wpsj_form legend select#wpsj_settings_effect{width:100px;height:23px;font-size:13px;padding: 0;}
+
+.wpsj_form fieldset {background: #ffffff;border-radius: 5px;padding:0 25px 0px 25px;transition: all .2s linear; -webkit-transition: all .2s linear; -moz-transition: all .2s linear; -o-transition: all .2s linear;border:solid 1px #ccc;max-width: 800px; margin-bottom: 15px;height: auto;}
+.wpsj_form fieldset fieldset.toggles{margin: 0 30px 15px 0px;background: #f4f4f4;padding-bottom: 0;}
+.wpsj_form fieldset.disabled, .wpsj_form fieldset fieldset.disabled{ background: none;height:40px;border: none;overflow: hidden;border:none;}
+.wpsj_form fieldset legend {background: #0074A2;padding:5px 15px;border-radius:5px;margin-left: -15px;font-weight: bold;color:#fff;/*width: 250px;*/line-height: 25px;}
+.wpsj_form fieldset.disabled legend, .wpsj_form fieldset fieldset.disabled legend{}
+.wpsj_form fieldset legend label{width: 140px;color: #fff;}
+
+.wpsj_form fieldset fieldset legend{background: #f4f4f4;color:#000;font-weight: normal;}
+.wpsj_form fieldset fieldset legend label{color:#000;vertical-align: middle;}
+
+.wp-picker-container .iris-picker{z-index: 10;}
